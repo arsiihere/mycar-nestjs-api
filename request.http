@@ -1,0 +1,8 @@
+### CREATE A NEW USER
+POST http://localhost:3000/auth/signup
+content-Type: application/json
+
+{
+    "email":"pakistan@gmail.com",
+    "password":"pakistanzindabad"
+}
